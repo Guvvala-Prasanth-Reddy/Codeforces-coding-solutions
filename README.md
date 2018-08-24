@@ -3,7 +3,7 @@ These are the solutions for first 50 problems of codeforces and solving these pr
    shortest way I felt and I kept my code minimal hence I was programming in python.\
 *If you have any queries feel free to ping me.*
 # Contact
- *Guvvala Prasanth*
-**Email**:- guvalaprashanth342@gmail.com
+ **Author**:- *Guvvala Prasanth*&nbsp;
+**Email**  :- guvalaprashanth342@gmail.com &nbsp;
 **@amfoss, India**
 
