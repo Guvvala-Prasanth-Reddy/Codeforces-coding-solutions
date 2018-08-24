@@ -1,0 +1,31 @@
+a=int(input())
+b=list(map(int,input().split()))
+a=b.count(4)
+c=b.count(3)
+d=b.count(2)
+e=b.count(1)
+k=a
+if(c<=e):
+	e=e-c
+	k+=c
+else:
+	k+=c
+	e=0
+if(d%2==0):
+	k+=d//2
+else:
+    k+=d//2
+    if(e>=2):
+    	k+=1
+    	e=e-2
+    elif(e>=1):
+    	k+=1
+    	e=e-1
+    else:
+        k+=1	
+if(e>0):
+	if(e%4 == 0):
+		k+=e//4
+	else:
+	    k+=e//4+1	
+print(k)            	

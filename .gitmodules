@@ -1,0 +1,4 @@
+[submodule "competetive-programming"]
+	path = competetive-programming
+	url = https://github.com/Guvvala-Prasanth-Reddy/competetive-programming.git
+	branch = master

@@ -1,0 +1,31 @@
+x=int(input())
+i=0
+hh,mm=map(str,input().split())
+a=map(int,mm.split())
+b=map(int,hh.split())
+while(True):
+    a=list(map(int,mm.split()))
+    b=list(map(int,hh.split()))
+    if(int(mm)>60):
+        mm=int(mm)
+        hh=int(hh)
+        hh+=1
+        mm=mm-60
+        mm=str(mm)
+        hh=str(hh)
+        print(hh,mm)
+        break
+    if(int(hh)==24):
+        hh=int(hh)
+        hh=00
+        hh=str(hh)
+        break
+    if(a.count("7")>0 or( b.count('7')>0)):
+        print(i)
+        break
+    else:
+        mm=int(mm)
+        mm+=x
+        mm=str(mm)
+        i+=1  
+

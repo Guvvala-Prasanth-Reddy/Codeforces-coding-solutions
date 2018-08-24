@@ -1,0 +1,14 @@
+a=int(input())
+f=1
+p=[]
+k=list(map(int,input().split()))
+j=0
+while(j<len(k)-1):
+	if(k[j]<=k[j+1]):
+		f+=1
+	else:
+	    p.append(f)
+	    f=1
+	j=j+1
+p.append(f)
+print(max(p))
