@@ -8,8 +8,8 @@ k=k[len(k)-n]
 print(k)
 f=0
 print(arr)
-for item in arr:
-    if(item == k):
+for i in arr:
+    if(i == k):
         break
     else:
         f+=1
