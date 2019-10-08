@@ -12,7 +12,7 @@ for i in arr:
     if(i == k):
         break
     else:
-        f+=1
+        f=f+1
 print(f)    
 
 
