@@ -3,7 +3,7 @@ arr=list(map(int,input().split()))
 arr.sort()
 arr.reverse()
 k=list(set(arr))
-k.sort()
+k=k.sort()
 k=k[len(k)-n]
 print(k)
 f=0
